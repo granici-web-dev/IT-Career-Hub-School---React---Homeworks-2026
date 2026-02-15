@@ -1,0 +1,27 @@
+.socials {
+  border: 3px solid #1ED760;
+  display: inline-flex;
+  padding: 36px 56px;
+  border-radius: 999px;
+  gap: 18px;
+}
+.logoSvg {
+  transition: all 0.3s ease;
+}
+
+.logoSvg:hover {
+  transform: translateY(-6px);
+}
+
+svg {
+  width: 100%;
+}
+
+path {
+  fill: #2cff7a;
+  transition: all 0.3s ease;
+}
+
+path:hover {
+  fill: #1181F1;
+}

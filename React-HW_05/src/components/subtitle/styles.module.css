@@ -1,0 +1,11 @@
+.subtitleInner {
+  display: flex;
+  justify-content: center;
+
+}
+
+.subtitle {
+  color: #1ED760;
+  text-align: center;
+  font-size: 32px;
+}
