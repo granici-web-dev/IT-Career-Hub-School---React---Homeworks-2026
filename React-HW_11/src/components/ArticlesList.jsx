@@ -1,15 +1,6 @@
 import { Link } from 'react-router-dom';
 import articles from '../data/articles';
 
-/*
- *  ArticlesList — список всех статей.
- *
- *  Link to={`/articles/${article.id}`}
- *  ────────────────────────────────────
- *  Шаблонная строка формирует путь: /articles/1, /articles/2 и т.д.
- *  При клике React Router сопоставит этот путь с Route path="/articles/:id"
- *  и отрендерит компонент Article.
- */
 function ArticlesList() {
   return (
     <div className="py-10 px-6 max-w-3xl mx-auto">

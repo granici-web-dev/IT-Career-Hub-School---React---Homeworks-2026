@@ -1,14 +1,5 @@
 import { Link } from 'react-router-dom';
 
-/*
- *  Home — главная страница блога.
- *
- *  Link vs <a href="...">:
- *  ───────────────────────
- *  <a href="/articles">  → полная перезагрузка страницы (как обычный сайт).
- *  <Link to="/articles"> → навигация БЕЗ перезагрузки (SPA).
- *    React Router перехватывает клик, меняет URL и рендерит нужный компонент.
- */
 function Home() {
   return (
     <div className="text-center py-16 px-6">
